@@ -21,8 +21,7 @@ function btnListen(){
 
     all.push(obj)
     console.log({all})
-
-    total.innerText="The Total Expense is ${expense}"
+console.log("The Total Expense is {$expense}")
 
 }
 
