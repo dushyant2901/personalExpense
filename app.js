@@ -9,19 +9,18 @@ function btnListen(){
     let obj={}
     let userInput=input.value
     let userDesc=desc.value
-    console.log({userInput})
-    let uexpense=parseInt(userInput,10)
-    console.log({uexpense})
-    console.log({userDesc})
-     expense=expense+userInput
-    console.log({expense})
+   
+    let ueExpense=parseInt(userInput, 10)
+  
+    expense=expense+ueExpense
+    
     
     obj.desc=userDesc
-    obj.amt=userInput
+    obj.amt=ueExpense
 
     all.push(obj)
-    console.log({all})
-console.log("The Total Expense is {$expense}")
+  
+ total.textContent="The Total Expense is :"+ expense
 
 }
 
