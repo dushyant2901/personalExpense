@@ -20,7 +20,7 @@ function btnListen(){
 
     all.push(obj)
   
- total.textContent="The Total Expense is :"+ expense
+ total.textContent=`The Total Expense is :${ expense}`
 
 }
 
